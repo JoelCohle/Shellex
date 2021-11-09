@@ -1,8 +1,11 @@
-# RUNNING THE SHELL-
+# INTRODUCTION
+An interactive Shell written in C that has traditional Bash features incorporated in it. 
+
+## RUNNING THE SHELL-
 1.  Compile the code with the make command in the directory containing the code
 2.  Run the executable with `./shellex` command 
 
-# FEATURES-
+## FEATURES-
 
 1.  Different commands can be entered in the same prompt separated by ';'
 2.  Tabs and extra spaces are removed for all functions
@@ -17,7 +20,7 @@
 8. Ctrl d logs the user out of the shell.
 9. All errors like invalid command syntax, system errors, etc. are handled.
 
-# COMMANDS-
+## COMMANDS-
 The functional commands are as follows:
 
 1. ***cd***: 
@@ -76,7 +79,7 @@ The functional commands are as follows:
 
 
 
-# ASSUMPTIONS:
+## ASSUMPTIONS:
 
 - Directory names are at most 1000 characters long
 - Input on the shell are at most 2000 characters long
